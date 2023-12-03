@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>미분과 적분</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><a href="index.html">미분과 적분</a></h1>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">미분</a></li>
+            <li><a href="2.html">적분</a></li>
+            <li><a href="3.html">미분적분학의 기본정리</a></li>
+        </ol>
+        <div id="article">
+            <h2>적분</h2>
+            <p>정적분: 정적분은 함수의 특정 구간에서의 면적을 나타낸다.
+                <br>표기는∫<sup>a</sup><sub>b</sub> f(x)dx로 나타내며, 이는 구간 [a,b]에서의 f(x)의 정적분을 의미한다.
+                <br>미분과 적분의 관계를 찾기 전 이 넓이는 구분구적법으로 계산했으며 구분구적법의 단계는 다음과 같다.
+                <br>1.구간을 나누어 부분구간을 정의한다.
+                <br>2.각 부분에서 함수를 분할해 대표값을 선택하여 면적을 근사화한다.
+                <br>3.각 부분의 면적을 합하여 전체 구간에서의 면적을 근사화한다.
+                <br>4.이때의 식에서 대표값 x<sub>n</sub>에 대하여 이 식을 n을 무한으로 하는 극한을 취한다.
+                <br>이 네가지 단계로 얻은 식은 lim<sub>n->∞</sub>∑<sup>n</sup><sub>i=1</sub>f(x<sub>i</sub>)*Δx<sub>i</sub>
+            </p>
+            <img src="gubungu.webp">
+            <p>부정적분: 부정적분은 미분의 역연산이다.
+                <br>표기는∫f(x)dx로 나타내며, 이는 f(x)의 부정적분을 의미한다. 부정적분은 상수항에 임의의 적분상수 C가 있다.
+                <br>∫f(x)dx=F(x)+C 라고 할 때, ∫<sup>a</sup><sub>b</sub> f(x)dx는 F(b)-F(a)이며 이에 따라 f(x)의 부정적분은 f(t)를 [x, a](a는 임의의 실수)에서의 정적분과 같다.
+                <br>∫<sup>x</sup><sub>a</sub> f(t)dt=F(x)-F(a)이고 -F(a)는 x에대한 상수이기 때문에 적분상수 취급 할 수 있기 때문이다. 
+            </p>
+        </div>
+    </div>
+</body>
+</html>
